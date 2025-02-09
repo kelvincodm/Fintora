@@ -1,0 +1,129 @@
+* {
+     margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", serif;
+}
+.container {
+    background-color: #e0e9ff;
+    padding: 25px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #bebebf;
+} 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #605f69;
+}
+.right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+nav button {
+    padding: 10px;
+    background-color: #5d81ff;
+    color: #d2dcfe;
+    box-shadow: 2px 2px 2px 2px #2a0866;
+}
+nav select {
+    padding: 5px;
+    border: 1px solid #cbd8ff;
+    border-radius: 10vh;
+    background-color: #e0e9ff;
+    color: #6385fc;
+}
+nav svg {
+    display: none;
+}
+@media only screen and (max-width: 900px) {
+    nav svg {
+        display: flex;
+    }
+    nav ul li {
+        display: none;
+    }
+    nav .right {
+        display: none;
+    }
+}
+.flex-con {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.flexone {
+    /* width: 49vh; */
+    border: 2px solid #bfb0d0;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px #2a0866;
+}
+.two-flex {
+    gap: 10px;
+    padding: 25px;
+    margin-top: 7vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 15vh;
+}
+.box {
+    background-color: #e0e9ff;
+    border: 2px solid #9b9b9f;
+    width: 70vh;
+    height: 50vh;
+}
+.question-box {
+     background-color: #eaf0ff;
+     padding: 25px;
+     margin-top: 10vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.question-group {
+    width: 100%;
+    max-width: 600px;
+}
+
+.question {
+   display: flex;
+   justify-content: space-between; 
+ 
+   
+   align-items: center;
+}
+.questions {
+    display: flex;justify-content: space-between; 
+ 
+    
+    padding: 15px;
+    align-items: center;
+    border-bottom: 2px solid #d9dfec;
+ }
+ footer {
+    display: flex;
+    padding: 55px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+ }
+ footer ul li {
+    padding: 10px;
+    list-style-type: none;
+ }
+ footer ul li a {
+    text-decoration: none;
+    color: #444248;
+ }
